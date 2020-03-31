@@ -2,8 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gangmin.alarm">
 
+    <!-- ************ -->
+    <!-- ANDROID 6.0 부터는 데이터가 구글 클라우드에 자동 백업 -->
+    <!-- allowBackup : false -->
+    <!-- fullBackupContent : false -->
+    <!-- ************ -->
+
     <application
-        android:allowBackup="true"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
