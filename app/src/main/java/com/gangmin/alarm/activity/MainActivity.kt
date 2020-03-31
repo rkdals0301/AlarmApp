@@ -1,7 +1,8 @@
-package com.gangmin.alarm
+package com.gangmin.alarm.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.gangmin.alarm.R
 
 class MainActivity : AppCompatActivity() {
 
